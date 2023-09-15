@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #28282B;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 230px 1.8fr 2fr;
+  
+}
+
+.sidebar {
+  background-color: #1e1e21;
+  min-height: 100vh;
+  border-right: 1px solid #595959;
+}
+
+.details {
+  border-left: 1px solid #494949;
+}
