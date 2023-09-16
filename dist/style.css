@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 
-.inbox-container {
+.container {
   width: 90%;
   padding: 30px 10px;
   display: flex;
@@ -40,10 +40,10 @@ body {
   padding: 8px 20px;
   border-radius: 8px;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
   cursor: pointer;
 
   transition: background-color 0.35s linear;
@@ -53,10 +53,39 @@ body {
   background-color: #494949;
 }
 
-.inbox img {
-  width: 20px;
+button img {
+  width: 18px;
   height: auto;
   color: #e1e1e1;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addProjectBtn button {
+  padding: 0;
+}
+
+.addProjectBtn button:hover {
+  background-color: #1e1e21;
+}
+
+.project-list {
+  align-self: flex-start;
+  color: #5c5c5c;
+}
+
+.project-ul {
+  width: 100%;
+  padding: 10px 0 40px;
+}
+
+.project-ul ul {
+  list-style: none;
 }
 
 .details {
