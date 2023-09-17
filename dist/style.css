@@ -88,6 +88,45 @@ button img {
   list-style: none;
 }
 
+.main .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px;
+  border-bottom: 1px solid #494949;
+}
+
+.projectTitle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.projectIcon img {
+  width: 30px;
+  height: auto;
+}
+
+.projectName {
+  color: #d2d2d2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#addTaskBtn {
+  background-color: #494949;
+  border-radius: 12px;
+  border: none;
+  color: #d2d2d2;
+  padding: 8px 11px;
+  cursor: pointer;
+
+  transition: color 0.3s linear;
+}
+
+#addTaskBtn:hover {
+  color: orange;
+}
+
 .details {
   border-left: 1px solid #494949;
 }
