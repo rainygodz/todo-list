@@ -141,6 +141,18 @@ button img {
   transition: background-color 0.3s linear;
 }
 
+.highPriority {
+  border-left : 3px solid red;
+}
+
+.mediumPriority {
+  border-left : 3px solid rgb(255, 251, 0);
+}
+
+.lowPriority {
+  border-left : 3px solid rgb(0, 98, 255);
+}
+
 .task:hover {
   background-color: #d2d2d238;
 }
