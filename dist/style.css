@@ -127,6 +127,40 @@ button img {
   color: orange;
 }
 
+.taskList {
+  padding: 8px;
+}
+
+.task {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 15px;
+  border-bottom: 1px solid #d2d2d238;
+  
+  transition: background-color 0.3s linear;
+}
+
+.task:hover {
+  background-color: #d2d2d238;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox img {
+  width: 20px;
+  height: auto;
+}
+
+.taskName {
+  color: #ffffff;
+  font-size: 20px;
+}
+
 .details {
   border-left: 1px solid #494949;
 }
