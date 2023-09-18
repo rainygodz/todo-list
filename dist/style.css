@@ -219,3 +219,21 @@ button img {
 #delBtn:hover {
   color: red;
 }
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 20px;
+}
+
+.task-details .description {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.task-details .title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
