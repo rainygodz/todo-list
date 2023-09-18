@@ -176,3 +176,46 @@ button img {
 .details {
   border-left: 1px solid #494949;
 }
+
+.details .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-bottom: 1px solid #494949;
+}
+
+.left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.calendar-icon {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon img {
+  width: 20px;
+  height: auto;
+}
+
+.due-date {
+  color: #0487eb;
+  font-size: 20px;
+}
+
+#delBtn {
+  background-color: #494949;
+  border-radius: 12px;
+  border: none;
+  color: #d2d2d2;
+  padding: 8px 11px;
+  cursor: pointer;
+
+  transition: color 0.3s linear;
+}
+
+#delBtn:hover {
+  color: red;
+}
